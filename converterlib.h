@@ -6,7 +6,6 @@ float cm_to_in(void)
     return in;
 }
 //m to ft
-
 float m_to_ft(void)
 {
     float meters = get_float("Meters: ");
@@ -14,3 +13,4 @@ float m_to_ft(void)
     printf("\nFeet:%f\n", feet);
     return in;
 }
+
